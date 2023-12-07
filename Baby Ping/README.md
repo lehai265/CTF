@@ -11,4 +11,4 @@
 - Ping
 ### Web Analysis:
 Trang web này có chức năng ping:
-![alert text](https://github.com/lehai265/OS-Command-Injection/blob/main/Baby%20Ping/web.png)
+![](https://github.com/lehai265/OS-Command-Injection/blob/main/Baby%20Ping/web.png)
