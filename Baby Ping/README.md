@@ -23,3 +23,6 @@ Response trả về "8.8.8.8;ls". Vì vậy ta cần sửa lại payload 1 chút
 
 Kết quả trả về ta đã thực hiện được Command Injection bây giờ ta có thể đi tìm flag rồi
 
+![](https://github.com/lehai265/OS-Command-Injection/blob/main/Baby%20Ping/web2.png)
+
+Payload: 8.8.8.8";cat+/flag.txt"
