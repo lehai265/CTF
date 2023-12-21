@@ -50,7 +50,7 @@ Kết quả là ta đã thực hiện được RCE. Bây giờ chúng ta đi tì
 
 ![](https://github.com/lehai265/CTF/blob/main/Remote%20File%20Inclusion/10.png)
 
-
+Cảm ơn các bạn đã xem !!!
 
 
 
