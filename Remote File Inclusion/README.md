@@ -30,7 +30,7 @@ Woa trang web đã bị lỗi LFI giờ ta đi lấy flag nào
 
 Nhưng đời không như mơ flagXXXX.txt đã bị random các kí tự cuối nên ta không biết chính xác tên file
 
-Ta có 1 số cách khai thác [tại đây](https://www.cdxy.me/?p=752). Payload:data:text/plain;base64,PD9waHAgc3lzdGVtKCJpZCIpPz4=. Khi giải mã ra là <?php system("id") ?>
+Ta có cách khai thác [tại đây](https://www.cdxy.me/?p=752). Payload:data:text/plain;base64,PD9waHAgc3lzdGVtKCJpZCIpPz4=. Khi giải mã ra là <?php system("id") ?>
 
 ![](https://github.com/lehai265/CTF/blob/main/Remote%20File%20Inclusion/5.png)
 
