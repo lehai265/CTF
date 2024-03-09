@@ -20,7 +20,7 @@ Ta thực hiện bypass filter payload: <b style="color:red;">'l's.</b>. Để h
 
 ![](https://github.com/lehai265/CTF/blob/main/Command%20Limit%20Length/3.png)
 
-Kết quả ta đã thực hiện được bypass. Nhưng còn 1 điều nữa là nó chỉ cho giới hạn nhập 4 kí tự. Ta liền tên từ điền hacktrick đẻ tiếp tục tra và có kết quả [tại đây](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#rce-with-4-chars) 
+Kết quả ta đã thực hiện được bypass. Nhưng còn 1 điều nữa là nó chỉ cho giới hạn nhập 4 kí tự. Ta liền tên từ điển hacktrick đẻ tiếp tục tra và có kết quả [tại đây](https://book.hacktricks.xyz/linux-hardening/bypass-bash-restrictions#rce-with-4-chars) 
 
 ![](https://github.com/lehai265/CTF/blob/main/Command%20Limit%20Length/4.png)
 
