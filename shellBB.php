@@ -1,5 +1,6 @@
 GIF89a;
 <?php
-$output = shell_exec("ls");
-echo "<pre> $output </pre>";
+$dir = "../";
+$a = scandir($dir);
+print_r($a);
 ?>
