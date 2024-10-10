@@ -4,7 +4,7 @@ info:
   termsOfService: "javascrip://alert(document.cookie)"
   title: title<script language="javascript">alert('1')</script>
   description: |
-    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 paths:
 tags:
   - name: Admin
