@@ -3,8 +3,7 @@ info:
   version: "1.0.<br>100"
   termsOfService: "javascrip://alert(document.cookie)"
   title: title<script language="javascript">alert('1')</script>
-  description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+  description: description with **markdown** format <script language="javascript">alert('script-in-description')</script> <img src=x onerror="alert('img-in-description')"> <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
 paths:
 tags:
   - name: Admin
