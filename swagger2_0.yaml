@@ -3,7 +3,9 @@ info:
   version: "1.0.<br>100"
   termsOfService: "javascrip://alert(document.cookie)"
   title: title<script language="javascript">alert('1')</script>
-  description: description with **markdown** format <script language="javascript">alert('script-in-description')</script> <img src=x onerror="alert('img-in-description')">
+  description: |
+    <math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>">
+paths:
 tags:
   - name: Admin
     description: tag with **markdown**
