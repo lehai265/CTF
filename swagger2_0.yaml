@@ -2,7 +2,8 @@ swagger: '2.0'
 info:
   title: Example yaml.spec
   description: |
-            <form><math><mtext><a href="aes" <img/src/onerror=alert(1)> </form><img/src/onerror=alert(1)></form><form><mglyph><svg><mtext><textarea><path id="--</textarea><a href="aes" sss </form><img/src/onerror=alert(1)>"><a href="aes" sss </form><img/src/onerror=alert(1)></form>
+    <svg><a><math><a><table><a></table><style><!--</style></svg>< id="-><img src onerror=alert(1)>">
+
 paths:
   /accounts:
     get:
