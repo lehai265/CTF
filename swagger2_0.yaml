@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Example yaml.spec
   description: |
-    <a href="aaaaa" sss </body><img/src/onerror=alert(1)>
+        <form><a href="aaaaa" sss </body><img/src/onerror=alert(1)>
 paths:
   /accounts:
     get:
